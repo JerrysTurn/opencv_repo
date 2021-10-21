@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello OpenCV " << CV_VERSION << endl;
+	cout << "Hello OpenCV " << CV_VERSION << endl; // cv version check
 
 	Mat img;
 	img = imread("lenna.bmp",IMREAD_GRAYSCALE); // 프로젝트 다이렉터리 내 사진파일을 읽어들인다, FLAG 열거형 상수로 인자지정 가능
