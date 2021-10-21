@@ -22,3 +22,5 @@ int main()
 	waitKey(0); // 키보드 입력대기
 	return 0;
 }
+
+// 추가 주석 넣기
